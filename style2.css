@@ -10,13 +10,15 @@ html {
 }
 
 body{
+  margin: 50px 0px; padding: 0px;
   font-size: 1rem;
   text-align: center;
   font-family: "Palatino Linotype", "Book Antiqua", "Palatino", sans-serif, serif;
   background-color:#ebe3ce;
 }
 
-img {border: none; }
+img {border: none;
+}
 
 h1{
   weight: bold;
@@ -27,7 +29,7 @@ h1{
 
 
 p{
-  weight:bold;
+  weight: bold;
   color: pink;
   font-style: normal;
 }
