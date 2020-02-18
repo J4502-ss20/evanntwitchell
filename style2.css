@@ -16,7 +16,7 @@ body{
   background-color:#ebe3ce;
 }
 
-img {border: 0; }
+img {border: none; }
 
 h1{
   weight: bold;
@@ -45,6 +45,11 @@ ul,li {
 
 #nav a:hover, a:active {
     background-color: #7a991a;
+    list-style: none;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    border-color: #green
 }
 
 .element {
