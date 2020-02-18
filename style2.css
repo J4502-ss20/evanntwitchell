@@ -43,11 +43,14 @@ ul,li {
     margin: 0 auto;
 }
 
-#nav a:hover, a:active {
+li {
+  list-style-type: none;
+}
+
+#nav a:hover, #nav a:active {
     background-color: #7a991a;
     list-style: none;
     padding: 0;
-    list-style-type: none;
     text-decoration: none;
     border-color: #green
 }
