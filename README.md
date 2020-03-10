@@ -1,4 +1,4 @@
 # evanntwitchell
 first repository with github
 
-https://j4502-ss20.github.io/evanntwitchell/ 
+https://j4502-ss20.github.io/evanntwitchell/Index2.html 
