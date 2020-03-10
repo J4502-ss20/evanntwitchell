@@ -81,3 +81,75 @@ ul {
     font-size: 0.8em;
     border-top: 1px solid black;
 }
+
+/* =================================
+  Flexbox
+==================================== */
+
+.container {
+	display: flex;
+	flex-direction: row; /*runs LTR along the horizontal axis*/
+	flex-direction: row-reverse; /*reverses row to run RTL along the horizontal axis*/
+	flex-direction: column; /*runs top to bottom along the vertical axis*/
+	flex-direction: column-reverse;/*runs bottom to top along the vertical axis  */
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+}
+
+@media (min-width: 600px) {
+	.container {
+		flex-direction: row;
+		justify-content: center;
+	}
+}
+
+@media (min-width: 800px) {
+
+	.item-1 {
+		margin-right: auto;
+	}
+}
+
+.container {
+	display: flex;
+	flex-wrap: nowrap;/*The default value*/
+	flex-wrap: wrap;/*Allows items to wrap*/
+	flex-wrap: wrap-reverse;/*wraps items in the reverse order they are in html*/
+}
+
+
+.container {
+	display: flex;
+	flex-flow: row nowrap; /*default*/
+	flex-flow: column wrap;/*example*/
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 1em;
+	font-family: 'Merriweather Sans', sans-serif;
+	color: #fff;
+	background: #e8e9e9;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.container {
+	padding: 10px;
+	background: #fff;
+  	border-radius: 5px;
+	margin: 45px auto;
+  	box-shadow: 0 1.5px 0 0 rgba(0,0,0,0.1);
+}
+.item {
+	color: #000;
+	padding: 15px;
+	margin: 5px;
+	background: #f1b82d;
+	border-radius: 3px;
+}
