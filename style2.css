@@ -82,9 +82,12 @@ ul {
     border-top: 1px solid black;
 }
 
+
 /* =================================
   Flexbox
 ==================================== */
+
+
 
 .container {
 	display: flex;
@@ -109,21 +112,18 @@ ul {
 	flex-flow: column wrap;/*example*/
 }
 
-* {
-	box-sizing: border-box;
-}
 
 body {
-	font-size: 1em;
+	font-size: 3em;
 	font-family: 'Merriweather Sans', sans-serif;
-	color: #fff;
-	background: #e8e9e9;
+	color: ##C0C0C0;
+	background: #214EB2;
 	padding-left: 5%;
 	padding-right: 5%;
 }
 .container {
 	padding: 10px;
-	background: #fff;
+	background: #ffffff;
   	border-radius: 5px;
 	margin: 45px auto;
   	box-shadow: 0 1.5px 0 0 rgba(0,0,0,0.1);
