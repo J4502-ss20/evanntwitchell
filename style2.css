@@ -11,7 +11,7 @@ html {
 
 body{
   margin: 50px 0px; padding: 0px;
-  font-size: 1rem;
+  font-size: 2rem;
   text-align: center;
   font-family: "Palatino Linotype", "Book Antiqua", "Palatino", sans-serif, serif;
   background-color:#ebe3ce;
@@ -115,7 +115,7 @@ ul {
 
 body {
 	font-size: 3em;
-	font-family: 'Merriweather Sans', sans-serif;
+	font-family:  "Palatino Linotype", "Book Antiqua", "Palatino", sans-serif, serif;
 	color: ##C0C0C0;
 	background: #214EB2;
 	padding-left: 5%;
