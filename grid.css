@@ -1,19 +1,16 @@
 
 
 @media screen and (min-width: 600px) {
-  photogrid {
+  .photogrid {
     display: grid;
-    grid-template-columns: 1fr .5fr .5fr 1fr;
+    grid-template-columns: 200px .5fr .5fr 1fr;
     grid-gap: 1px;
     grid-template-areas:
       "a b b e"
-      "a c d e";
-
-    flex-flow: row;
+      ". c d .";
+    /* flex-flow: row; */
     justify-content: space-between;
-
     }
-
 
       .image1 {
    grid-area: a;
