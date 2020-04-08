@@ -7,10 +7,11 @@
     grid-gap: 1px;
     grid-template-areas:
       "a b b e"
-      ". c d .";
+      "a c d e";
     /* flex-flow: row; */
     justify-content: space-between;
     }
+  }
 
       .image1 {
    grid-area: a;
@@ -39,3 +40,4 @@ grid-area: e;
   .item1 {
     margin-right: auto;
   }
+}
