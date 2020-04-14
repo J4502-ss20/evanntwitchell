@@ -44,10 +44,12 @@ ul,li {
 }
 
 #container{
+    text-decoration: none;
     width: 95%;
     background-color: #ffffff;
     margin: 0 auto;
     font-size: 5px;
+
 }
 
 li {
@@ -65,7 +67,14 @@ ul {
     padding: 0;
     text-decoration: none;
     border-color: green
-}
+  }
+
+  nav {
+  display:block;
+  text-decoration: none;
+  padding:20px 30px;
+ }
+
 
 .element {
   position: relative;
@@ -85,6 +94,30 @@ ul {
     font-family: Georgia, "Times New Roman", serif;
     font-size: 0.8em;
     border-top: 1px solid black;
+}
+
+
+header {
+    display: flex;
+    flex-flow: row;
+    background-color: #65a8a6;
+    margin: 0;
+    padding: 0 10px;
+}
+
+.menu-trigger {
+    order: 1;
+    font-size: 1.75em;
+    width: 2em;
+}
+
+header h1 {
+    order: 2;
+    font-size: 2em;
+}
+
+nav ul {
+    display: none;
 }
 
 
@@ -137,7 +170,7 @@ body {
   	border-radius: 5px;
 	margin: 45px auto;
   	box-shadow: 0 1.5px 0 0 rgba(0,0,0,0.1);
-    max-width: 50em; 
+    max-width: 50em;
 }
 .item {
 	color: #000;
@@ -155,4 +188,51 @@ body {
 }
 
 @media (min-width: 800px) {
+}
+
+
+
+/* =================================
+  Collapsible Menu
+==================================== */
+
+
+
+.menu-trigger {
+    order: 1;
+    font-size: 1.75em;
+    width: 2em;
+}
+
+header h1 {
+    order: 2;
+    font-size: 2em;
+}
+
+nav ul {
+    display: none;
+}
+
+@media screen and (min-width: 700px){
+
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        border-top: none;
+    }
+
+    .menu-trigger {
+        display: none;
+    }
+
+    header h1 {
+        order: 1;
+    }
+
+    nav {
+        order: 2;
+    }
+
 }
