@@ -1,0 +1,47 @@
+
+
+@media screen and (min-width: 600px) {
+  .photogrid {
+    display: grid;
+    grid-template-columns: 200px .5fr .5fr 1fr;
+    grid-gap: 1px;
+    grid-template-areas:
+      "a b b e"
+      ". c d .";
+    /* flex-flow: row; */
+    justify-content: space-between;
+    }
+  }
+
+      .image1 {
+   grid-area: a;
+   width: 100%;
+ }
+
+ .image2 {
+grid-area: b;
+width: 100%;
+}
+
+.image3 {
+grid-area: c;
+width: 100%;
+}
+
+.image4 {
+grid-area: d;
+width: 100%;
+}
+
+.image5 {
+grid-area: e;
+width: 100%;
+}
+
+
+@media screen and (min-width: 800px) {
+  .item1 {
+    margin-right: auto;
+    grid-gap: 20px;
+  }
+}

@@ -5,16 +5,20 @@
 }*/
 
 html {
-  font-size: 100%;
-  background-color: grey;
+  font-size: 30%;
+  background-color: tan;
 }
 
 body{
+<<<<<<< HEAD
   margin: 50px 0px; padding: 0px;
+=======
+  margin: 20px 0px; padding: 0px;
+>>>>>>> 63d469040e32bced6dfec2b8dc7ebfff3b24c4fe
   font-size: 2rem;
   text-align: center;
   font-family: "Palatino Linotype", "Book Antiqua", "Palatino", sans-serif, serif;
-  background-color:#ebe3ce;
+  background-color: tan;
 }
 
 img {border: none;
@@ -22,7 +26,7 @@ img {border: none;
 
 h1{
   font-weight: bold;
-  color: green;
+  color: #2874a6 ;
 }
 .italic {font-style: italic;
   }
@@ -30,7 +34,7 @@ h1{
 
 p{
   font-weight: bold;
-  color: pink;
+  color:  #3498db;
   font-style: normal;
 }
 
@@ -43,6 +47,7 @@ ul,li {
     width: 95%;
     background-color: #ffffff;
     margin: 0 auto;
+    font-size: 5px;
 }
 
 li {
@@ -55,7 +60,7 @@ ul {
 }
 
 #nav a:link, #nav a:visited {
-    background-color: #7a991a;
+    background-color: tan;
     list-style: none;
     padding: 0;
     text-decoration: none;
@@ -116,8 +121,13 @@ ul {
 body {
 	font-size: 3em;
 	font-family:  "Palatino Linotype", "Book Antiqua", "Palatino", sans-serif, serif;
+<<<<<<< HEAD
 	color: ##C0C0C0;
 	background: #214EB2;
+=======
+	color: #C0C0C0;
+	background: tan;
+>>>>>>> 63d469040e32bced6dfec2b8dc7ebfff3b24c4fe
 	padding-left: 5%;
 	padding-right: 5%;
 }
@@ -127,6 +137,7 @@ body {
   	border-radius: 5px;
 	margin: 45px auto;
   	box-shadow: 0 1.5px 0 0 rgba(0,0,0,0.1);
+    max-width: 50em; 
 }
 .item {
 	color: #000;
