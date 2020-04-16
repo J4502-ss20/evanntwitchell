@@ -15,6 +15,8 @@ body{
   text-align: center;
   font-family: "Palatino Linotype", "Book Antiqua", "Palatino", sans-serif, serif;
   background-color: tan;
+  text-decoration: none;
+
 }
 
 img {border: none;
@@ -36,6 +38,7 @@ p{
 
 ul,li {
   color: brown;
+  text-decoration: none;
 
 }
 
@@ -51,10 +54,13 @@ ul,li {
 li {
   padding: 0;
   list-style-type: none;
+  text-decoration: none;
+
 }
 
 ul {
   padding: 0;
+  text-decoration: none;
 }
 
 #nav a:link, #nav a:visited {
@@ -83,6 +89,8 @@ ul {
     font-family: Georgia, "Times New Roman", serif;
     font-size: 0.8em;
     border-top: 1px solid black;
+    text-decoration: none;
+
 }
 
 
@@ -92,6 +100,7 @@ header {
     background-color: #65a8a6;
     margin: 0;
     padding: 0 10px;
+    text-decoration: none;
 }
 
 .menu-trigger {
@@ -107,6 +116,8 @@ header h1 {
 
 nav ul {
     display: none;
+    text-decoration: none;
+
 }
 
 
@@ -137,6 +148,7 @@ nav ul {
 	display: flex;
 	flex-flow: row nowrap; /*default*/
 	flex-flow: column wrap;/*example*/
+  text-decoration: none;
 }
 
 
@@ -157,6 +169,8 @@ body {
 	margin: 45px auto;
   	box-shadow: 0 1.5px 0 0 rgba(0,0,0,0.1);
     max-width: 50em;
+    text-decoration: none;
+
 }
 .item {
 	color: #000;
@@ -195,9 +209,17 @@ header h1 {
     font-size: 2em;
 }
 
-nav ul {
-    display: none;
+.nav li {
+    display: flex;
+    align-items: justify right;
+    flex-direction: row; /*runs LTR along the horizontal axis*/
 }
+
+
+nav ul{
+    order: 3;
+    display: none;
+  }
 
 @media screen and (min-width: 700px){
 
